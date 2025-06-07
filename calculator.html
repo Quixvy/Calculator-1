@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculatorcss.css">
+</head>
+<body>
+  <div class="container">
+  <div class="onScreen"></div>
+
+  <div>
+    <button onclick="updateCalculation('1')">1</button>
+    <button onclick="updateCalculation('2')">2</button>
+    <button onclick="updateCalculation('3')">3</button>
+    <button class="signs"onclick="updateCalculation('+')">+</button>
+  </div>
+  
+  <div>
+    <button onclick="updateCalculation('4')">4</button>
+    <button onclick="updateCalculation('5')">5</button>
+    <button onclick="updateCalculation('6')">6</button>
+    <button class="signs"onclick="updateCalculation('-')">-</button>
+  </div>
+
+  <div>
+    <button onclick="updateCalculation('7')">7</button>
+    <button onclick="updateCalculation('8')">8</button>
+    <button onclick="updateCalculation('9')">9</button>
+    <button class="signs"onclick="updateCalculation('*')">*</button>
+  </div>
+
+  <div>
+    <button onclick="updateCalculation('0')">0</button>
+    <button onclick="updateCalculation('.')">.</button>
+    <button onclick="
+      try {
+        calculation = eval(calculation).toString();
+        displayCalculation();
+        saveCalculation();
+      } catch (e) {
+        calculation = '';
+        document.querySelector('.onScreen').innerHTML = 'Error';
+      }
+    ">=</button>
+    <button class="signs"onclick="updateCalculation('/')">/</button>
+  </div>
+    
+    <div>
+  <button onclick="
+    calculation = '';
+    displayCalculation();
+    saveCalculation();
+  ">Clear</button>
+    </div>
+</div>    
+
+  <script src="calculatorjava.js">
+  
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+}
+
+.onScreen {
+  color: white;
+  font-size: 60px;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container div {
+  margin-bottom: 5px;
+  display: flex;
+  
+}
+
+.container button {
+  margin: 5px;
+  font-size: 20px;
+  padding: 10px;
+  width: 65px;
+  height: 65px;
+  color:white;
+  background-color: #333333;
+  border: none;
+  border-radius: 130px;
+}
+
+.container .signs {
+  background-color: rgba(254,160,10,255);
+}
