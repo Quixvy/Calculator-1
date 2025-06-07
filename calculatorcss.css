@@ -28,13 +28,15 @@ body {
   width: 65px;
   height: 65px;
   color:white;
-  background-color: #333333;
+  background-color: rgb(51,51,51);
   border: none;
   border-radius: 130px;
+  animation-delay: 0.6s;
+  cursor: pointer;
 }
 
 .container button: active {
-  background-color: #333335;
+  background-color: rgb(148, 148, 148);
 }
 .container .signs {
   background-color: rgba(254,160,10,255);
