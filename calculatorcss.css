@@ -33,6 +33,9 @@ body {
   border-radius: 130px;
 }
 
+.container button: active {
+  background-color: #333335;
+}
 .container .signs {
   background-color: rgba(254,160,10,255);
 }
