@@ -35,8 +35,6 @@ body {
   cursor: pointer;
 }
 
-.container button: active {
-  background-color: rgb(148, 148, 148);
 }
 .container .signs {
   background-color: rgba(254,160,10,255);
