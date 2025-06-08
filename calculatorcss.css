@@ -36,5 +36,6 @@ body {
 
 
 .container button.signs {
-  background-color: rgb(254, 160, 10);
+  background-color: 
+    rgb(254, 160, 10); !important;
 }
